@@ -1,0 +1,157 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow: hidden;
+}
+.bgvid {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.judul-utama {
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: aliceblue;
+    border-color: red;
+    padding-top: 10px;
+    font-size: 120%;
+}
+.header {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 90px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-top: 1vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30vh;
+}
+.logosekolah {
+    padding-left: 8px;
+    width: 10vh;
+    height: 11vh;
+}
+#asw {
+}
+.logo79 {
+    padding-right: 8px;
+    padding-top: 1vh;
+    width: 10vh;
+    height: 10vh;
+}
+h3 {
+    font-size: 5vw;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.all {
+    padding-bottom: 1cm;
+}
+.isi {
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    padding: 10px;
+}
+h3,p {
+    font-size: 150%;
+}
+p {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.img {
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    display: flex;
+    align-content: center;
+}
+.footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    padding-bottom: 20px;
+}
+.listsosmed {
+    padding-left: 10px;
+    padding-top: 8px;
+    display: grid;
+}
+.menu-awal {
+    border: 3px solid red;
+    align-items: center;
+    padding: 3vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 10%;
+    border-radius: 30px;
+    text-align: center;
+}
+#tombol {
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+i {
+    color: crimson;
+    padding-left: 5px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+}
+a,i {
+    font-size: 3vw;
+}
+h1 {
+    font-size: 2.9vw;
+}
+a:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (min-width:630px) {
+    h3,p {
+        font-size: 100%;
+    }
+    .img {
+        width: 70%;
+    }
+    .isi {
+    width: 40vw;
+    margin: 10px;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+    .all {
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction:row;
+    margin-bottom: 10px;
+    display: flex;
+    width: auto;
+    }
+}
+.ABOUT {
+    padding-top: 8px;
+}
+.awall {
+    display: flex;
+    justify-content: center;
+}
+#garuda { 
+    padding-top: 3cm;
+    width: 70vmax;
+}
